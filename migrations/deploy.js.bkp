@@ -1,0 +1,5 @@
+const KBMarket_Contract = artifacts.require("KBMarket");
+
+module.exports = function(deployer) {
+  deployer.deploy(KBMarket_Contract);
+};
